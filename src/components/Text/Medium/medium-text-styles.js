@@ -8,6 +8,15 @@ const MediumRow = styled.div`
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+
+    @media screen and (max-width: 768px) {
+        justify-content: center;
+        padding: 100px 50px;
+    }
+
+    @media screen and (max-width: 428px) {
+        padding: 100px 25px;
+    }
 `
 
 const MediumColumn = styled.div`
@@ -25,10 +34,15 @@ const MediumColumn = styled.div`
 `
 
 const MediumHeader = styled.h1`
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
     margin: 0 15px 15px 0;
-    font-family: 'Oswald', sans-serif !important;
+    font-family: 'Oswald', sans-serif;
+
+    @media screen and (max-width: 768px) {
+        font-size: 2.5rem;
+    }
+
 `
 
 

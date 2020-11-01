@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import {FaBars} from 'react-icons/fa';
-import * as Scroll from 'react-scroll';
+import 'react-scroll';
 
 import {
     Nav,
@@ -45,13 +45,13 @@ const Navbar = ({toggle, themeToggler}) => {
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to="about" spy={true} smooth={true} exact="true" offset={-100} duration={500}>About</NavLinks>
-                        </NavItem>
-                        <NavItem>
-                            <NavLinks to="discover" spy={true} smooth={true} exact="true" offset={-100} duration={500}>Discover</NavLinks>
+                            <NavLinks to="about" spy={true} smooth={true} exact="true" offset={-160} duration={500}>About</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to="services" spy={true} smooth={true} exact="true" offset={-160} duration={500}>Services</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to="discover" spy={true} smooth={true} exact="true" offset={-100} duration={500}>Discover</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to="signup" spy={true} smooth={true} exact="true" offset={-100} duration={500}>Sign up</NavLinks>

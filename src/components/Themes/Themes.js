@@ -32,3 +32,30 @@ export const darkTheme = {
     btnSizeLgH: "50px",
     btnSizeLgBg: "#fff"
 }
+
+export const cssDiscover = {
+    flexDirectionRow: false,
+    flexDirectionColumn: true,
+    id: "discover",
+    textSection: false,
+    title: "DISCOVER",
+    flexBasis: true,
+    maxWidth: true,
+    flexContent: "flex-start",
+    img: require("../../svgs/img2.svg")
+}
+
+export const cssHomeText = {
+    flexBasis: false,
+    maxWidth: false
+}
+
+export const cssAbout = {
+    flexDirectionRow: true,
+    flexDirectionColumn: true,
+    id: "about",
+    textSection: true,
+    title: "ABOUT US",
+    flexContent: "center",
+    img: require("../../svgs/img1.svg")
+}

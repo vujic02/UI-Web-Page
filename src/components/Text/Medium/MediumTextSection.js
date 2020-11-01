@@ -7,14 +7,14 @@ import {  MediumRow,
 
 import ButtonPrimary from '../../Buttons/ButtonPrimary'
 
-const MediumTextSection = ({theme, textOne, textTwo, headerOne}) => {
+const MediumTextSection = ({theme, textOne, textTwo, headerOne, btnText}) => {
     return (
         <MediumRow>
             <MediumColumn>
                 <MediumText>{textOne}</MediumText>
                 <MediumHeader>{headerOne}</MediumHeader>
                 <MediumTextSecondary>{textTwo}</MediumTextSecondary>
-                <ButtonPrimary theme={theme} btnText="Hello"/>
+                <ButtonPrimary theme={theme} btnText={btnText}/>
             </MediumColumn>
         </MediumRow>
     )

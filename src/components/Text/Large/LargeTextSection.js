@@ -8,17 +8,17 @@ import {  LargeRow,
 
 import ButtonSecondary from '../../Buttons/ButtonSecondary'
 
-const LargeTextSection = ({theme, textOne, textTwo, headerOne}) => {
+const LargeTextSection = ({theme, textOne, textTwo, headerOne, btnText, flexBasis, maxWidth, flexContent}) => {
     return (
-        <LargeRow>
-            <LargeColumn>
+        <LargeRow flexContent={flexContent}>
+            <LargeColumn flexBasis={flexBasis} maxWidth={maxWidth} >
                 <LargeText>{textOne}</LargeText>
                 <LargeHeader>{headerOne}</LargeHeader>
                 <LargeTextSecondary>{textTwo}</LargeTextSecondary>
-                <ButtonSecondary theme={theme} btnText="Sign up"/>
+                <ButtonSecondary theme={theme} btnText={btnText} />
             </LargeColumn>
         </LargeRow>
     )
 }
 
-export default LargeTextSection
+export default LargeTextSection;

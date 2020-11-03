@@ -59,3 +59,13 @@ export const cssAbout = {
     flexContent: "center",
     img: require("../../svgs/img1.svg")
 }
+
+export const cssSignup = {
+    flexDirectionRow: true,
+    flexDirectionColumn: true,
+    id: "signup",
+    textSection: true,
+    title: "SIGN UP",
+    flexContent: "center",
+    img: require("../../svgs/img3.svg")
+}

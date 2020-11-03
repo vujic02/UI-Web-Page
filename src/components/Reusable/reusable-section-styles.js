@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const ReusableSectionContainer = styled.div`
     list-style: none;
+    margin-bottom: 15%;
     @media (max-width: 1200px) {
         padding-left: 5%;
         padding-right: 5%;

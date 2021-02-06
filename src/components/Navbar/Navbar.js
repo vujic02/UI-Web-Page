@@ -39,7 +39,9 @@ const Navbar = ({toggle, themeToggler}) => {
         <>
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
-                    <NavLogo src={myLogo} to="/"/>
+                    <a href="https://github.com/vujic02">
+                        <NavLogo src={myLogo}/>
+                    </a>
                     <MobileIcon onClick={toggle}>
                         <FaBars/>
                     </MobileIcon>
